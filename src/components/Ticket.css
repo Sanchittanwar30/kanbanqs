@@ -1,0 +1,60 @@
+/* Styling for the Ticket Component */
+.ticket-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: transform 0.2s;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .ticket-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Title Style */
+  .ticket-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Status Icon */
+  .status-icon {
+    font-size: 18px;
+    color: #52c41a;
+    margin-right: 10px;
+  }
+  
+  /* Priority Icon */
+  .priority-icon {
+    font-size: 18px;
+    color: #faad14;
+    margin-right: 10px;
+  }
+  
+  /* User Icon */
+  .user-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* Button */
+  .view-details-button {
+    background: #1890ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .view-details-button:hover {
+    background: #40a9ff;
+  }
+  

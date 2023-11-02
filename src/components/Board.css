@@ -1,0 +1,87 @@
+/* Board Container */
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Options Section */
+  .options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Select Dropdown */
+  .ant-select {
+    width: 180px;
+    margin-right: 10px;
+  }
+  
+  /* Buttons */
+  .ant-btn {
+    margin-right: 10px;
+  }
+  
+  /* Board Columns */
+  .board-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Column */
+  .column {
+    flex: 1;
+    background: #f2f2f2;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Column Title */
+  .column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Card */
+  .card {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1890ff;
+  }
+  
+  /* Card Text */
+  .card-text {
+    color: #333;
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    background: #1890ff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  /* Button Hover State */
+  .btn:hover {
+    background: #40a9ff;
+  }
+  
